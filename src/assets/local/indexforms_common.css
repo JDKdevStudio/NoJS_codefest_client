@@ -25,5 +25,19 @@
 }
 
 .login-container .btn-interaction{
-    width: 25%;
+    width: 28%;
+    text-align: center;
+}
+
+.select-container{
+    justify-content: center;
+    border-radius: 12px;
+    width: 50%;
+    align-self:center;
+    margin-left: 23%;
+}
+
+.select-container select{
+    margin-left: 0px;
+    margin: 17px;
 }
