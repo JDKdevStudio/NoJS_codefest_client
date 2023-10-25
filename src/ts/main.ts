@@ -6,7 +6,7 @@ const insertNewMessage = (message: any) => {
         let placeholders: Record<string, string> = {
             "{{title}}": message.title,
             "{{description}}": message.desc,
-            "{{img}}":message.url_banner
+            "{{img}}": "http://25.54.85.248/assets/" + message.url_banner
         };
         //Replace in template
         for (let placeholder in placeholders) {
@@ -15,7 +15,7 @@ const insertNewMessage = (message: any) => {
             }
         }
 
-        
+
 
         $("#insert-star").append(response);
     });
