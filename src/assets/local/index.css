@@ -1,6 +1,4 @@
 .main-announcement{
-    
-    border-radius: 5px;
     text-align: center;
     margin-top: -100px;
     justify-content: center;
@@ -10,8 +8,12 @@
     font-weight: bolder;
 }
 
+.main-announcement h4{
+    margin-bottom: 25px;
+}
 
 .main-announcement a{
-    margin: 2px;
-    width: 100%;
+    width: 25%;
+    border-radius: 12px;
+    font-size: medium;
 }

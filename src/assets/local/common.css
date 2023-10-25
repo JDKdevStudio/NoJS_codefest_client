@@ -3,3 +3,11 @@ body{
                 url('../images/bgm_common.webp');
     overflow-y: hidden;
 }
+
+a{
+    border-radius: 100px;
+}
+
+button{
+    border-radius: 10px;
+}
