@@ -27,13 +27,13 @@
                 <div class="login-box">
                     <form>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control input-boxes" id="floatingname"
+                            <input type="text" class="form-control input-boxes" id="floatingnameName1"
                                 placeholder="name@example.com">
                             <label for="floatingname">Nombre</label>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control input-boxes" id="floatingInput"
+                            <input type="email" class="form-control input-boxes" id="floatingInputemail"
                                 placeholder="name@example.com">
                             <label for="floatingInput">Correo Electrónico</label>
                         </div>
@@ -50,15 +50,13 @@
                         </div>
 
                         <div class="select-container">
-                            <select class="form-select form-select-lg" aria-label="Large select example">
+                            <select class="form-select form-select-lg" aria-label="Large select example" id="a1">
                                 <option selected>Selecciona tu facultad</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
+                                <option value="Ingeniería de Sistemas">Ingeniería de Sistemas</option>
                             </select>
     
     
-                            <select class="form-select form-select-lg" aria-label="Large select example">
+                            <select class="form-select form-select-lg" aria-label="Large select example" id="a2">
                                 <option selected>Selecciona tu semestre</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -74,7 +72,7 @@
                         </div>
                     
                         <div class="mb-3">
-                            <button type="submit" class="btn btn-primary btn-interaction">
+                            <button type="button" class="btn btn-primary btn-interaction" id="btnStart">
                                 <h5>Enviar</h5>
                             </button>
                         </div>
@@ -86,6 +84,7 @@
     </main>
 
     <script src="../utils/pageCommonInit.ts" type="module"></script>
+    <script src="../ts/register.ts" type="module"></script>
 </body>
 
 </html>
