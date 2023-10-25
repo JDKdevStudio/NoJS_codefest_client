@@ -12,3 +12,11 @@ button{
     border-radius: 10px;
 }
 
+.navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#new-proyect {
+    border-color: gray;
+}
