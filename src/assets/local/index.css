@@ -1,0 +1,17 @@
+.main-announcement{
+    
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -100px;
+    justify-content: center;
+}
+
+.main-announcement h1{
+    font-weight: bolder;
+}
+
+
+.main-announcement a{
+    margin: 2px;
+    width: 100%;
+}
