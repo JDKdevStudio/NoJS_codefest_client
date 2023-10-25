@@ -1,0 +1,31 @@
+.container-live{
+    justify-content: center;
+    text-align: center;
+}
+
+.container-live #project-title{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container-live #project-desc{
+    margin-top: 30px;
+}
+
+.comment-class{
+    opacity: 1;
+    overflow-y: scroll;
+    width: 80%;
+    margin: 10px;
+}
+
+#insertion-comments{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
